@@ -163,6 +163,7 @@ function stopDragging(e){
 const styleSheet = `@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 #hintDiv {
+  z-index: 10000;
   font-family: 'Noto Sans TC', sans-serif;
   line-height: 1.8;
   position: absolute;
@@ -176,7 +177,7 @@ const styleSheet = `@import url(https://fonts.googleapis.com/earlyaccess/notosan
 #mydivheader {
   padding: 10px;
   cursor: move;
-  z-index: 10;
+  z-index: 11000;
   background-color: #003049;
   color: #fff;
   position:sticky;
