@@ -66,7 +66,6 @@ const treeBuild = (resultArr) => {
       }, outerDict);
       return outerDict;
   }, { children: treeResult });
-  console.log(treeResult);
   return treeResult
 };
 
